@@ -1,11 +1,5 @@
-import { styled } from './styles'
-
-const Button = styled('button', {
-  fontFamily: '$default',
-  backgroundColor: '$ignite500',
-  borderRadius: '$md',
-})
-
-export function App() {
-  return <h1>Hello World</h1>
-}
+export * from './components/Box'
+export * from './components/Text'
+export * from './components/Heading'
+export * from './components/Avatar'
+export * from './components/Button'
