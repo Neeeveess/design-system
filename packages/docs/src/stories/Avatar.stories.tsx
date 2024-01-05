@@ -8,6 +8,13 @@ export default {
     src: 'https://www.github.com/Neeeveess.png',
     alt: 'João Vitor',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
