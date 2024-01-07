@@ -1,0 +1,4 @@
+name: Deploy docs
+
+on:
+  push: bran
